@@ -11,10 +11,7 @@ terraform {
     storage_account_name = "sabetfsrrj1iohywz"                        # Can be passed via `-backend-config=`"storage_account_name=<storage account name>"` in the `init` command.
     container_name       = "tfstate"                                  # Can be passed via `-backend-config=`"container_name=<container name>"` in the `init` command.
     key                  = "backend.terraform.tfstate"                # Can be passed via `-backend-config=`"key=<blob key name>"` in the `init` command.
-    client_id            = "d0ba7baa-7089-4cfb-9ee3-752ba53c6661"     # Can also be set via `ARM_CLIENT_ID` environment variable.
-    client_secret        = "sUG8Q~m5vq1ToJZ54KyNo478i7Wk7bkXLDegidxi" # Can also be set via `ARM_CLIENT_SECRET` environment variable.
-    subscription_id      = "efc1e7b1-5729-4eea-b33e-12cc6b1c0183"     # Can also be set via `ARM_SUBSCRIPTION_ID` environment variable.
-    tenant_id            = "02feabb9-444e-4f66-9c13-6a8f04b75c2f"     # Can also be set via `ARM_TENANT_ID` environment variable.
+   
   }
 
 }
