@@ -5,7 +5,7 @@ terraform {
       version = "4.0.1"
     }
   }
-
+# az storage blob list --container-name tfstate --account-name sabetfsrrj1iohywz --output table
   backend "azurerm" {
     resource_group_name  = "rg-backend-tfstate-rs"     # Can be passed via `-backend-config=`"resource_group_name=<resource group name>"` in the `init` command.
     storage_account_name = "sabetfsrrj1iohywz"         # Can be passed via `-backend-config=`"storage_account_name=<storage account name>"` in the `init` command.
