@@ -7,10 +7,11 @@ terraform {
   }
 # az storage blob list --container-name tfstate --account-name sabetfsrrj1iohywz --output table
   backend "azurerm" {
-    resource_group_name  = "rg-backend-tfstate-rs"     # Can be passed via `-backend-config=`"resource_group_name=<resource group name>"` in the `init` command.
-    storage_account_name = "sabetfsrrj1iohywz"         # Can be passed via `-backend-config=`"storage_account_name=<storage account name>"` in the `init` command.
-    container_name       = "tfstate"                   # Can be passed via `-backend-config=`"container_name=<container name>"` in the `init` command.
-    key                  = "Modul6.terraform.tfstate" # Can be passed via `-backend-config=`"key=<blob key name>"` in the `init` command.
+    resource_group_name  = "rg-backend-rs"                    # Can be passed via `-backend-config=`"resource_group_name=<resource group name>"` in the `init` command.
+    storage_account_name = "sabetfs2o1h8u2qjrh"                        # Can be passed via `-backend-config=`"storage_account_name=<storage account name>"` in the `init` command.
+    container_name       = "tfstate"                                  # Can be passed via `-backend-config=`"container_name=<container name>"` in the `init` command.
+    key                  = "modul6.terraform.tfstate"                # Can be passed via `-backend-config=`"key=<blob key name>"` in the `init` command.
+   
   }
 
 }
