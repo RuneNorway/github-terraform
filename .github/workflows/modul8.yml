@@ -62,7 +62,7 @@ jobs:
 
       - name: 'Terraform destroy'
         if: github.event.inputs.action_type == 'destroy'
-        id: apply
+        id: destroy
         run: terraform destroy -auto-approve
         working-directory: ${{ env.WORKING_DIR }}
 
