@@ -62,7 +62,7 @@ jobs:
   prod:
     needs: stage_prod
     runs-on: ubuntu-latest
-    enviroment:
+    environment: 
       name: production
       url: ${{ steps.get_web_endpoint.output.WEB_ENDPOINT }} 
     steps:
