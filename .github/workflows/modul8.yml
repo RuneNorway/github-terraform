@@ -67,6 +67,7 @@ jobs:
           else
             terraform apply -auto-approve
           fi
+        working-directory: ${{ env.WORKING_DIR }}
       
 
 
