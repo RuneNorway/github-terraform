@@ -53,4 +53,3 @@ output "primary_web_endpoint" {
 
 }
 
-# prøver å destroye
