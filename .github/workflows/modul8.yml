@@ -10,7 +10,7 @@ on:
     - 'Modul8/**'
 
     # Allows you to run this workflow manually from the Actions tab
-   workflow_dispatch:
+  workflow_dispatch:
     inputs:
       action_type:
         description: 'What action should be performed? (apply/destroy)'
