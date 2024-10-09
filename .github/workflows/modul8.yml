@@ -16,6 +16,10 @@ on:
         description: 'What action should be performed? (apply/destroy)'
         required: true
         default: 'apply'
+        type: choice
+        options:
+          - 'apply'
+          - 'destroy'
 
   
 
