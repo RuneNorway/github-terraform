@@ -53,4 +53,4 @@ output "primary_web_endpoint" {
 
 }
 
-# prøver en destroy 
+# prøver å lage
